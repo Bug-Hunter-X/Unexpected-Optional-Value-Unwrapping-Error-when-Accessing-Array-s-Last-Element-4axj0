@@ -1,0 +1,4 @@
+# Swift Array 'last' Property Error
+This repository demonstrates an uncommon error related to optional unwrapping when accessing the last element of an array in Swift.  The 'last' property returns an optional value, which can be nil if the array is empty.  Failure to handle this optional appropriately can lead to crashes or unexpected behavior.
+
+The `bug.swift` file shows the erroneous code. The `bugSolution.swift` file provides a corrected version that safely handles the possibility of an empty array.  This solution employs optional chaining and the nil-coalescing operator for robust error handling.
